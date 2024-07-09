@@ -74,3 +74,36 @@
         background-color: #dddddd35;
 }
 }
+
+/* Media queries pour les appareils mobiles */
+@media (max-width: 768px) {
+    .login {
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px;
+    }
+
+    .separator {
+        height: 2px;
+        width: 80%;
+        background-color: #dddddd35;
+    }
+}
+
+@media (max-width: 480px) {
+    .login {
+        gap: 30px;
+    }
+
+    .item form input, .item form button {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .item form label {
+        justify-content: center;
+        img {
+            margin-right: 10px;
+        }
+    }
+}

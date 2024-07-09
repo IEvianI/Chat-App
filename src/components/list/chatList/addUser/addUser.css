@@ -10,11 +10,14 @@
     left: 0;
     right: 0;
     margin: auto;
+    max-width: 90%;
+    overflow: hidden;
 
 
     form{
         display: flex;
         gap: 20px;
+        flex-wrap: wrap;
 
         input{
             padding: 20px;
@@ -62,3 +65,4 @@
         }
     }
 }
+

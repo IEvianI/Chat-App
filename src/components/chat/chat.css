@@ -178,3 +178,176 @@
         }
     }
 }
+
+/* Media queries pour les appareils mobiles */
+@media (max-width: 768px) {
+    .chat {
+        .top {
+            padding: 10px;
+
+            .user {
+                gap: 10px;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+
+                .texts {
+                    span {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .icons {
+                gap: 10px;
+
+                img {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+
+        .center {
+            padding: 10px;
+            gap: 10px;
+
+            .message {
+                max-width: 80%;
+                gap: 10px;
+
+                img {
+                    width: 28px;
+                    height: 28px;
+                }
+
+                .texts {
+                    gap: 5px;
+
+                    img {
+                        height: 200px;
+                    }
+
+                    p {
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            padding: 10px;
+            gap: 10px;
+
+            .icons {
+                gap: 10px;
+            }
+
+            img {
+                width: 18px;
+                height: 18px;
+            }
+
+            input {
+                padding: 15px;
+                font-size: 14px;
+            }
+
+            .sendButton {
+                padding: 8px 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .chat {
+        .top {
+            padding: 5px;
+
+            .user {
+                gap: 5px;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                .texts {
+                    span {
+                        font-size: 14px;
+                    }
+
+                    p {
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            .icons {
+                gap: 5px;
+
+                img {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+
+        .center {
+            padding: 5px;
+            gap: 5px;
+
+            .message {
+                max-width: 90%;
+                gap: 5px;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                .texts {
+                    gap: 3px;
+
+                    img {
+                        height: 150px;
+                    }
+
+                    p {
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            padding: 5px;
+            gap: 5px;
+
+            .icons {
+                gap: 5px;
+            }
+
+            img {
+                width: 16px;
+                height: 16px;
+            }
+
+            input {
+                padding: 10px;
+                font-size: 12px;
+            }
+
+            .sendButton {
+                padding: 6px 12px;
+            }
+        }
+    }
+}
