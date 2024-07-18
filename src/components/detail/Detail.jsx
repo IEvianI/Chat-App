@@ -55,13 +55,6 @@ const Detail = () => {
                             </div>
                         <img src="./download.png" alt="" className="icon"/>
                         </div>
-                        <div className="photoItem">
-                            <div className="photoDetail">
-                            <img src="https://images.pexels.com/photos/26731546/pexels-photo-26731546/free-photo-of-mer-paysage-plage-vacances.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
-                            <span>photo_2024_2.png</span>
-                            </div>
-                        <img src="./download.png" alt="" className="icon"/>
-                        </div>
                     </div>
                 </div>
                 <div className="option">
