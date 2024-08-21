@@ -145,14 +145,14 @@ const Chat = () => {
                     <img src="./camera.png" alt="" />
                     <img src="./mic.png" alt="" />
                 </div>
-                <input type="text" placeholder={(isCurrentUserBlocked || isReceiverBlocked) ? "You cannot send a message" : "Type a message..."} value={text} onChange={e=>setText(e.target.value)} disabled={isCurrentUserBlocked || isReceiverBlocked} />
+                <input type="text" placeholder={(isCurrentUserBlocked || isReceiverBlocked) ? "Vous ne pouvez pas envoyer de message" : "Écrire un message..."} value={text} onChange={e=>setText(e.target.value)} disabled={isCurrentUserBlocked || isReceiverBlocked} />
                 <div className="emoji">
                     <img src="./emoji.png" alt="" onClick={() => setOpen(prev=>!prev)}/>
                     <div className="picker">
                     <EmojiPicker open={open} onEmojiClick={handleEmoji}/>
                     </div>
                 </div>
-                <button className="sendButton" onClick={handleSend} disabled={isCurrentUserBlocked || isReceiverBlocked}>Send</button>
+                <button className="sendButton" onClick={handleSend} disabled={isCurrentUserBlocked || isReceiverBlocked}>Envoyer</button>
             </div>
         </div>
     )

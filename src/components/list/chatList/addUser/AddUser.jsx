@@ -74,15 +74,15 @@ const AddUser = () => {
     return (
         <div className="addUser">
             <form onSubmit={handleSearch}>
-                <input type="text" placeholder='Username' name='username'/>
-                <button>Search</button>
+                <input type="text" placeholder='Nom d&apos;utilisateur' name='username'/>
+                <button>Rechercher</button>
             </form>
             {user && <div className="user">
                 <div className="detail">
                     <img src={user.avatar || "./avatar.png"} alt="" />
                     <span>{user.username}</span>
                 </div>
-                <button onClick={handleAdd}>Add User</button>
+                <button onClick={handleAdd}>Ajouter un utilisateur</button>
             </div>}
             </div>
     )

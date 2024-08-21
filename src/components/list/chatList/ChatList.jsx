@@ -69,7 +69,7 @@ const ChatList = () => {
             <div className="search">
                 <div className="searchBar">
                     <img src="./search.png" alt="" />
-                    <input type="text" placeholder='Search' onChange={(e) =>setInput(e.target.value)} />
+                    <input type="text" placeholder='Rechercher' onChange={(e) =>setInput(e.target.value)} />
                 </div>
                 <img src={addMode ? "./minus.png" : "./plus.png"} alt="" className='add'
                 onClick={() => setAddMode((prev) => !prev)}/>

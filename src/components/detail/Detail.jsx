@@ -32,19 +32,19 @@ const Detail = () => {
             <div className="info">
                 <div className="option">
                     <div className="title">
-                        <span>Chat Settings</span>
+                        <span>Paramètres du chat</span>
                         <img src="./arrowUp.png" alt="" />
                     </div>
                 </div>
                 <div className="option">
                     <div className="title">
-                        <span>Privacy & help</span>
+                        <span>Confidentialité et aide</span>
                         <img src="./arrowUp.png" alt="" />
                     </div>
                 </div>
                 <div className="option">
                     <div className="title">
-                        <span>Shared photos</span>
+                        <span>Photos partagées</span>
                         <img src="./arrowDown.png" alt="" />
                     </div>
                     <div className="photos">
@@ -80,14 +80,14 @@ const Detail = () => {
                 </div>
                 <div className="option">
                     <div className="title">
-                        <span>Shared Files</span>
+                        <span>Fichiers partagés</span>
                         <img src="./arrowUp.png" alt="" />
                     </div>
                 </div>
                 <button onClick={handleBlock}>{
-                    isCurrentUserBlocked ? "You are blocked" : isReceiverBlocked ? "User blocked" : "Block User"
+                    isCurrentUserBlocked ? "Vous êtes bloqué" : isReceiverBlocked ? "Utilisateur bloqué" : "Bloquer"
                     }</button>
-                <button className="logout" onClick={() => auth.signOut()}>Logout</button>
+                <button className="logout" onClick={() => auth.signOut()}>Déconnexion</button>
             </div>
         </div>
     )
